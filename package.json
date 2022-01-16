@@ -1,0 +1,19 @@
+{
+    "name": "ajax",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-json-modules main.js",
+        "dev": "nodemon --experimental-json-modules main.js"
+    },
+    "author": "Maxim Klivenok <max.klivenok@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
